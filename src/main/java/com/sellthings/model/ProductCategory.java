@@ -12,13 +12,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 @Data
-@Getter
-@Setter
 @Table(name = "product_category")
 public class ProductCategory {
 
